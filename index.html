@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dynamic Team Page with Search and Filter" />
+  <title>Our Team</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== HERO / HEADER ========== -->
+  <section class="hero">
+    <div class="container">
+      <span class="hero-badge">✧ Our Team</span>
+      <h1 class="hero-title">Meet the <span class="text-accent">Professionals</span></h1>
+      <p class="hero-subtitle">Passionate individuals dedicated to delivering excellence in every project.</p>
+    </div>
+  </section>
+
+  <!-- ========== SEARCH & FILTER CONTROLS ========== -->
+  <section class="controls-section">
+    <div class="container">
+      <div class="controls-wrapper">
+        <!-- Search Input -->
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" id="searchInput" placeholder="Search by name, role, or skills..." aria-label="Search team members" />
+          <button class="search-clear" id="searchClear" aria-label="Clear search" style="display:none;">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="filter-group" id="filterGroup">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <!-- Roles will be injected by JavaScript -->
+        </div>
+
+        <!-- Clear Filters Button -->
+        <button class="btn-clear-filters" id="clearFiltersBtn" style="display:none;">
+          <i class="fas fa-undo"></i> Clear Filters
+        </button>
+      </div>
+
+      <!-- Results Count -->
+      <div class="results-count" id="resultsCount">
+        Showing <span id="resultCountNumber">0</span> team members
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TEAM GRID ========== -->
+  <section class="team-section">
+    <div class="container">
+      <div class="team-grid" id="teamGrid">
+        <!-- Cards will be injected by JavaScript -->
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state" id="emptyState" style="display:none;">
+        <i class="fas fa-users-slash"></i>
+        <p>No team members match your search.</p>
+        <button class="btn-secondary" id="resetFilters">Clear Filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MODAL (Full Profile) ========== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-body" id="modalBody">
+        <!-- Injected by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Our Team. Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

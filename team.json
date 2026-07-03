@@ -1,0 +1,77 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Ali Khan",
+      "role": "Frontend Developer",
+      "image_url": "https://picsum.photos/seed/team-ali-khan/400/400.jpg",
+      "bio": "Expert in React and UI design. Passionate about creating beautiful, responsive web applications.",
+      "skills": ["React", "JavaScript", "UI/UX", "CSS", "HTML"],
+      "social_links": {
+        "github": "https://github.com/alikhan",
+        "linkedin": "https://linkedin.com/in/alikhan",
+        "twitter": "https://twitter.com/alikhan"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ayesha Siddiqui",
+      "role": "UX Designer",
+      "image_url": "https://picsum.photos/seed/team-ayesha/400/400.jpg",
+      "bio": "User-centered designer with 5+ years of experience in creating intuitive digital experiences.",
+      "skills": ["Figma", "User Research", "Prototyping", "UI/UX", "Design Systems"],
+      "social_links": {
+        "github": "https://github.com/ayeshas",
+        "linkedin": "https://linkedin.com/in/ayeshas"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bilal Ahmed",
+      "role": "Backend Developer",
+      "image_url": "https://picsum.photos/seed/team-bilal/400/400.jpg",
+      "bio": "Node.js & Python expert. Specializes in building scalable APIs and cloud infrastructure.",
+      "skills": ["Node.js", "Python", "Django", "PostgreSQL", "Docker", "AWS"],
+      "social_links": {
+        "github": "https://github.com/bilalahmed",
+        "linkedin": "https://linkedin.com/in/bilalahmed"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Fatima Noor",
+      "role": "Data Scientist",
+      "image_url": "https://picsum.photos/seed/team-fatima/400/400.jpg",
+      "bio": "Machine learning engineer with a focus on NLP and computer vision applications.",
+      "skills": ["Python", "TensorFlow", "PyTorch", "NLP", "Computer Vision", "Pandas"],
+      "social_links": {
+        "github": "https://github.com/fatimanoor",
+        "linkedin": "https://linkedin.com/in/fatimanoor"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Hamza Ali",
+      "role": "DevOps Engineer",
+      "image_url": "https://picsum.photos/seed/team-hamza/400/400.jpg",
+      "bio": "Infrastructure automation expert. AWS certified and passionate about CI/CD pipelines.",
+      "skills": ["AWS", "Kubernetes", "Docker", "CI/CD", "Terraform", "Linux"],
+      "social_links": {
+        "github": "https://github.com/hamzaali",
+        "linkedin": "https://linkedin.com/in/hamzaali"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Zara Malik",
+      "role": "Product Manager",
+      "image_url": "https://picsum.photos/seed/team-zara/400/400.jpg",
+      "bio": "Strategic product leader with a background in agile development and user research.",
+      "skills": ["Agile", "Product Strategy", "User Research", "Analytics", "Jira", "Scrum"],
+      "social_links": {
+        "github": "https://github.com/zaramalik",
+        "linkedin": "https://linkedin.com/in/zaramalik"
+      }
+    }
+  ]
+}
